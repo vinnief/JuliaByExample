@@ -1,0 +1,9 @@
+www
+repo_*
+*.DS_Store
+*.py[cod]
+pip-log.txt
+.coverage
+env
+.idea
+src/outfile.dat
