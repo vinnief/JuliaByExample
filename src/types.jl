@@ -6,7 +6,11 @@ end
 
 # Type Definitions are probably most similar to tyepdefs in c?
 # a simple type with no special constructor functions might look like this
+<<<<<<< HEAD
 mutable struct Person
+=======
+type Person
+>>>>>>> 4442c151be5ac039172a4d800634b5aa7e687adb
 	name::AbstractString
 	male::Bool
 	age::Float64
@@ -25,7 +29,11 @@ printsum(people)
 
 # types may also contains arrays and dicts
 # constructor functions can be defined to easily create objects
+<<<<<<< HEAD
 mutable struct Family
+=======
+type Family
+>>>>>>> 4442c151be5ac039172a4d800634b5aa7e687adb
 	name::AbstractString
 	members::Array{AbstractString, 1}
 	extended::Bool
