@@ -18,12 +18,13 @@ function quadratic2(a::Float64, b::Float64, c::Float64)
     r2 = quadratic(a, -sqr_term, b)
     # multiple values can be returned from a function using tuples
     # if the [return](http://docs.julialang.org:8000/en/latest/manual/functions/#the-return-keyword) keyword is omitted, the last term is returned
+    println("the two roots are ",r1, " and ", r2)
     r1, r2
 end
 
 vol = sphere_vol(3)
 # @printf allows number formatting but does not automatically append the \n to statements, see below
-@printf "volume = %0.3f\n" vol 
+@printf "volume = %0.3f\n" vol
 #> volume = 113.097
 
 quad1, quad2 = quadratic2(2.0, -2.0, -12.0)
@@ -31,3 +32,4 @@ println("result 1: ", quad1)
 #> result 1: 3.0
 println("result 2: ", quad2)
 #> result 2: -2.0
+println("the two roots are ",quad1, " and ", quad2)
