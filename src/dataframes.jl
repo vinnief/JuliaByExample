@@ -3,7 +3,7 @@ showln(x) = (show(x); println())
 # TODO: needs more links to docs.
 
 # A DataFrame is an in-memory database
-df = DataFrame(A = [1, 2], B = [e, pi], C = ["xx", "xy"])
+df = DataFrame(A = [1, 2], B = [ℯ, pi], C = ["xx", "xy"])
 showln(df)
 #> 2x3 DataFrame
 #> |-------|---|---------|------|

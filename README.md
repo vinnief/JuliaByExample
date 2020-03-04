@@ -3,7 +3,7 @@ Julia By Example
 
 [![Build Status](https://travis-ci.org/samuelcolvin/JuliaByExample.svg?branch=master)](https://travis-ci.org/samuelcolvin/JuliaByExample)
 
-*&copy; Samuel Colvin 2014, 2015, 2018*
+*&copy; Samuel Colvin 2014, 2015, 2018,2019
 
 Hosted at [samuelcolvin.github.io/JuliaByExample](http://samuelcolvin.github.io/JuliaByExample/).
 
@@ -26,3 +26,5 @@ To build (first setup your `env` with `deps/requirements.txt`):
 To deploy:
 
     aws s3 sync --delete www/ s3://juliabyexample.helpmanual.io/
+or maybe?   
+  ghp-import www/ -p
